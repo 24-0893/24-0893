@@ -1,0 +1,179 @@
+/* General Page Styling - Assignment 4 */
+body {
+    background-color: #f7f9fc; /* Non-white background */
+    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center; /* All content centered */
+    line-height: 1.6;
+}
+
+/* Header & Menu Bar - Assignment 5 */
+header {
+    background-color: #fff;
+    padding: 20px 0;
+    border-bottom: 2px solid #eaeaea;
+}
+
+header h1 {
+    margin: 0;
+    color: #2c3e50;
+    font-size: 2.5em;
+}
+
+header p {
+    color: #7f8c8d;
+    font-size: 0.9em;
+}
+
+nav {
+    background-color: #2c3e50;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+/* Main Content Area */
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Added Feature: Interactive Banner - Assignment 5 */
+.hero-banner {
+    background: linear-gradient(rgba(44, 62, 80, 0.7), rgba(44, 62, 80, 0.7)), url('https://via.placeholder.com/1200x400/2c3e50/ffffff?text=New+Collection+2026') center center / cover;
+    color: white;
+    padding: 100px 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+
+.hero-banner h2 { font-size: 3em; margin: 0; }
+.hero-banner p { font-size: 1.2em; max-width: 600px; margin: 20px auto; }
+.cta-button {
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+.cta-button:hover { background-color: #d35400; }
+
+/* 2 Columns Layout - Assignment 5 */
+.columns-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* for smaller screens */
+}
+
+.column {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    background-color: white;
+}
+
+/* Paragraph Formatting - Assignment 5 */
+.formatted-paragraphs p {
+    margin-bottom: 1.5em;
+}
+.formatted-paragraphs p.highlight {
+    border-left: 4px solid #3498db;
+    padding-left: 15px;
+}
+
+/* List with At Least 5 Items - Assignment 5 */
+.category-list {
+    text-align: left;
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.category-list h4 { margin-left: 10px; }
+
+.category-list ul {
+    list-style-type: square;
+}
+
+/* Images in Containers (5 images) - Assignment 4 & 5 */
+.images-section h2 { margin-bottom: 30px; }
+
+.image-row {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.shoe-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    width: 200px;
+    margin: 10px;
+    background-color: white;
+    transition: transform 0.2s;
+}
+
+.shoe-card:hover { transform: translateY(-5px); }
+.shoe-card img { width: 100%; border-radius: 5px; }
+.shoe-card h4 { margin: 10px 0 5px 0; color: #2c3e50; }
+.shoe-card p { margin: 0; color: #e67e22; font-weight: bold; }
+
+/* Table Full-length - Assignment 5 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 40px 0;
+    background-color: white;
+    border: 1px solid #eee;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+}
+
+th { background-color: #f7f9fc; }
+
+/* Footer - Assignment 5 */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    padding: 30px;
+    font-size: 0.9em;
+}
+
+footer p { margin: 5px 0; }
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .columns-container { flex-direction: column; }
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store - Wireframe</title>
+    <style>
+        body { font-family: sans-serif; margin: 0; padding: 20px; text-align: center; }
+        header { border: 2px solid black; padding: 10px; margin-bottom: 20px; }
+        nav button { margin: 0 5px; padding: 5px 10px; }
+        .search-box { width: 80%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; }
+        .main-heading { font-size: 2em; margin-bottom: 10px; }
+        .paragraph-container { border: 2px solid black; padding: 20px; width: 80%; margin: 0 auto; height: 100px; margin-bottom: 20px;}
+        .image-gallery, .video-gallery, .table-gallery { display: flex; justify-content: space-around; flex-wrap: wrap; margin-bottom: 20px; }
+        .media-placeholder { width: 100px; height: 100px; background-color: #eee; border: 1px solid #ccc; margin: 5px; display: flex; align-items: center; justify-content: center; }
+        .video-placeholder { width: 150px; height: 80px; background-color: #ddd; border: 1px solid #aaa; margin: 5px; display: flex; align-items: center; justify-content: center; }
+        table { width: 45%; border-collapse: collapse; border: 1px solid black; }
+        th, td { border: 1px solid black; padding: 5px; text-align: center; }
+    </style>
+</head>
+<body>
+
+<header>
+    <nav>
+        <button>Home</button>
+        <button>Contact Us</button>
+        <button>About</button>
+        <button>Testimonials</button>
+    </nav>
+    <input type="text" class="search-box" placeholder="Search box">
+</header>
+
+<div class="main-heading">Heading: Your heading (Best perfumes 2026)</div>
+
+<div class="paragraph-container">Paragraph</div>
+
+<div class="image-gallery">
+    <div class="media-placeholder">Image1</div>
+    <div class="media-placeholder">Image2</div>
+    <div class="media-placeholder">Image3</div>
+    <div class="media-placeholder">Image4</div>
+    <div class="media-placeholder">Image5</div>
+    <div class="media-placeholder">Image6</div>
+</div>
+
+<div class="video-gallery">
+    <div class="video-placeholder">Video1</div>
+    <div class="video-placeholder">Video2</div>
+    <div class="video-placeholder">Video3</div>
+    <div class="video-placeholder">Video4</div>
+</div>
+
+<div class="table-gallery">
+    <table><tr><td>Table1</td></tr></table>
+    <table><tr><td>Table2</td></tr></table>
+</div>
+
+</body>
+</html>

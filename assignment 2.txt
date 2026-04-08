@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Site - Formatting & Lists</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { border: 1px solid black; padding: 8px; text-align: left; }
+    </style>
+</head>
+<body>
+
+<h1>Shoe Product Information</h1>
+
+<h2>Line 1: <b>Bold Product: Air Pegasus</b></h2>
+<p>Line 2: <i>This classic shoe provides excellent cushioning. (Italics)</i></p>
+<p>Line 3: <u>Special Offer: Buy one get one 50% off. (Underlined)</u></p>
+<p>Line 4: Superscript and Subscript example: The new shoe H<sup>2</sup>O series is for the 2<sub>nd</sub> quarter.</p>
+<p>Line 5: Subscript and Superscript example: We have size 9 <sub>1/2</sub> for runners. Release date is 2026 <sup>summer</sup>.</p>
+<p>Line 6: <s>Regular Price: $150</s> Sale Price: $99 (Strike-through)</p>
+<p>Line 7: <mark>Highlight: Limited Edition Release!</mark></p>
+<p>Line 8: <q>Quotation: "The best running shoes I've ever owned." - satisfied customer.</q></p>
+<blockquote cite="https://example.com/reviews">Line 9: Indented Quotation: "After testing these for three months, I can confidently say they are the most durable and comfortable shoes in the category." - Runner's Magazine.</blockquote>
+<p>Line 10: Footer: Visit our full store online. &copy; 2026 ShoeCorp</p>
+
+<hr>
+<h2>Assignment 2 Continuation</h2>
+
+<h3>Line 11: Five Lines using Br:</h3>
+Line 1<br>Line 2<br>Line 3<br>Line 4<br>Line 5
+
+<hr>
+<h3>Line 12: 3 Lines with HR:</h3>
+Line with HR above and below
+<hr>
+Another line
+<hr>
+Final line in this section
+
+<hr>
+<h3>Line 13: 3 Lines with PRE:</h3>
+<pre>
+This is text in a pre tag.
+It preserves   spaces and
+line breaks.
+</pre>
+
+<hr>
+<h3>Line 14: Unordered and Ordered Lists:</h3>
+<ul>
+    <li>Running Shoes</li>
+    <li>Basketball Shoes</li>
+    <li>Casual Sneakers</li>
+    <li>Boots</li>
+    <li>Sandals</li>
+</ul>
+<ol>
+    <li>Choose your size.</li>
+    <li>Select a color.</li>
+    <li>Add to cart.</li>
+    <li>Proceed to checkout.</li>
+    <li>Receive confirmation.</li>
+</ol>
+
+<hr>
+<h3>Line 15: Nested List (6 Items total in nested list):</h3>
+<ul>
+    <li>Mens
+        <ul>
+            <li>Running</li>
+            <li>Training</li>
+            <li>Casual</li>
+        </ul>
+    </li>
+    <li>Womens
+        <ul>
+            <li>Running</li>
+            <li>Casual</li>
+            <li>Yoga/Gym</li>
+        </ul>
+    </li>
+</ul>
+
+<hr>
+<h3>Line 16: Table with 10 Columns and 5 Rows:</h3>
+<table>
+    <thead>
+        <tr>
+            <th>SKU</th><th>Model</th><th>Category</th><th>Size (US)</th><th>Color</th>
+            <th>Stock</th><th>Price</th><th>Material</th><th>Release Date</th><th>Rating</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>A1001</td><td>Air Pegasus</td><td>Running</td><td>10.5</td><td>White/Red</td>
+            <td>150</td><td>$130.00</td><td>Mesh</td><td>2026-03-01</td><td>4.8/5</td>
+        </tr>
+        <tr>
+            <td>B2002</td><td>Court Royale</td><td>Casual</td><td>9.0</td><td>Black</td>
+            <td>300</td><td>$75.00</td><td>Leather</td><td>2025-08-15</td><td>4.5/5</td>
+        </tr>
+        <tr>
+            <td>C3003</td><td>Zoom Vomero</td><td>Running</td><td>11.0</td><td>Gray</td>
+            <td>80</td><td>$160.00</td><td>Knit</td><td>2026-05-10</td><td>4.9/5</td>
+        </tr>
+        <tr>
+            <td>D4004</td><td>Force One</td><td>Casual</td><td>10.0</td><td>White/White</td>
+            <td>500</td><td>$110.00</td><td>Leather</td><td>Iconic</td><td>4.7/5</td>
+        </tr>
+        <tr>
+            <td>E5005</td><td>Trail Blaster</td><td>Boots</td><td>12.0</td><td>Brown/Tan</td>
+            <td>120</td><td>$145.00</td><td>Synthetic</td><td>2026-01-20</td><td>4.6/5</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

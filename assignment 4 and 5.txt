@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sole & Soul - Premium Shoes | Assignment 4 & 5</title>
+    <link rel="stylesheet" href="professional.css">
+
+    <style>
+        .internal-style-h3 {
+            color: #3498db;
+            border-bottom: 2px dashed #3498db;
+            display: inline-block;
+            margin-top: 30px;
+            padding-bottom: 5px;
+        }
+        .highlight-internal {
+            background-color: yellow;
+            padding: 2px 5px;
+            border-radius: 3px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Sole & Soul</h1>
+    <p>Premium Footwear Since 2026</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop Shoes</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="testimonials.html">Reviews</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<main>
+    <div class="hero-banner">
+        <h2>Your Perfect Fit Awaits</h2>
+        <p>Line 1: Experience unparalleled comfort and performance. From road running to casual nights out, find your style.</p>
+        <p>Line 2: Superscript and Subscript example for new product series H<sub>2</sub>O and Cloud9<sup>TM</sup> tech.</p>
+        <button class="cta-button">Shop the Collection</button>
+    </div>
+
+    <h3 class="internal-style-h3">Core Collections (Internal CSS Style)</h3>
+
+    <div class="category-list">
+        <h4>Browse by Type</h4>
+        <ul>
+            <li>Road Running Shoes</li>
+            <li>Trail Running Shoes</li>
+            <li>Basketball Sneakers</li>
+            <li>Casual Lifestyle Shoes</li>
+            <li>Performance Training</li>
+        </ul>
+    </div>
+
+    <div class="columns-container">
+        <div class="column">
+            <h3>Featured Shoe: Air Pegasus 26</h3>
+            <div style="border: 1px solid #ccc; padding: 10px; background-color: white; display: inline-block; max-width: 250px;">
+                <img src="https://via.placeholder.com/200x150/ff9999/333333?text=Pegasus+26" alt="Pegasus Shoe">
+            </div>
+            <p><strong>The Pegasus legacy continues.</strong> Line 3: Experience the responsive cushioning that runners love. <span style="color: blue; font-style: italic;">Styled with Inline CSS (Blue/Italics) for assignment requirement.</span></p>
+            <p>Our most popular shoe is back with an updated upper for enhanced breathability and comfort over long miles.</p>
+        </div>
+
+        <div class="column formatted-paragraphs">
+            <h3>The Sole & Soul Difference</h3>
+            <p>Line 4: Craftsmanship First. At Sole & Soul, we meticulously select materials and test designs. Line 5: Formatting check - Bold: We believe every shoe is an investment in your well-being.</p>
+            <p class="highlight">Performance Engineering. Whether you're a first-time walker or a seasoned athlete, we engineer our shoes for optimal support and durability.</p>
+            <p>Line 6: Subscript example size 9 <sub>1/2</sub>. Superscript example Release 2026 <sup>summer</sup>.</p>
+            <p>Line 7: <span class="highlight-internal">Highlight check via Internal CSS.</span> Superscript Tech<sup>TM</sup>.</p>
+            <p>Line 8: <q>Quotation check: "The best running shoes I've ever owned."</q> &ndash; Customer Review.</p>
+            <blockquote cite="TestimonialSource">Line 9: Indented Quotation: "Their customer support is as top-tier as their footwear." &ndash; satisfied runner.</blockquote>
+        </div>
+    </div>
+
+    <div class="images-section">
+        <h2>Our Popular Models (At least 5)</h2>
+        <div class="image-row">
+            <div class="shoe-card"><img src="https://via.placeholder.com/200x150/a9f5a9/333333?text=Air+Vomero" alt="Vomero"><h4>Zoom Vomero</h4><p>$160</p></div>
+            <div class="shoe-card"><img src="https://via.placeholder.com/200x150/a9d0f5/333333?text=React+Infinity" alt="Infinity"><h4>React Infinity</h4><p>$140</p></div>
+            <div class="shoe-card"><img src="https://via.placeholder.com/200x150/f5a9f2/333333?text=Tempo+Next" alt="Tempo"><h4>Tempo Next%</h4><p>$180</p></div>
+            <div class="shoe-card"><img src="https://via.placeholder.com/200x150/f5d0a9/333333?text=Structure+25" alt="Structure"><h4>Structure 25</h4><p>$130</p></div>
+            <div class="shoe-card"><img src="https://via.placeholder.com/200x150/d0a9f5/333333?text=Waffle+One" alt="Waffle One"><h4>Waffle One</h4><p>$100</p></div>
+        </div>
+    </div>
+
+    <section>
+        <h2>Performance Reviews</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Rick Roll" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section>
+        <h2>Detailed Product Stock Inventory</h2>
+        <table summary="Product details and current stock levels">
+            <thead>
+                <tr>
+                    <th>SKU</th><th>Model Name</th><th>Category</th><th>Available Sizes (US)</th><th>Color Options</th>
+                    <th>Current Stock</th><th>Price</th><th>Key Material</th><th>Added Features</th><th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A1001</td><td>Air Pegasus 26</td><td>Running</td><td>7-13</td><td>White, Black, Red</td>
+                    <td>150</td><td>$130.00</td><td>Engineered Mesh</td><td>Zoom Air</td><td>4.8/5</td>
+                </tr>
+                <tr>
+                    <td>B2002</td><td>Court Royale</td><td>Casual</td><td>6-12</td><td>White, Black, Navy</td>
+                    <td>300</td><td>$75.00</td><td>Leather Upper</td><td>Durable Sole</td><td>4.5/5</td>
+                </tr>
+                <tr>
+                    <td>C3003</td><td>Zoom Vomero</td><td>Running</td><td>8-14</td><td>Gray, Blue, Yellow</td>
+                    <td>80</td><td>$160.00</td><td>Flyknit Tech</td><td>CloudStep<sup>TM</sup></td><td>4.9/5</td>
+                </tr>
+                <tr>
+                    <td>D4004</td><td>Force One</td><td>Casual</td><td>6-15</td><td>All White</td>
+                    <td>500</td><td>$110.00</td><td>Premium Leather</td><td>Iconic</td><td>4.7/5</td>
+                </tr>
+                <tr>
+                    <td>E5005</td><td>Trail Blaster</td><td>Hiking/Trail</td><td>9-13</td><td>Brown, Green, Tan</td>
+                    <td>120</td><td>$145.00</td><td>Synthetic/Mesh</td><td>H<sub>2</sub>O Resistant</td><td>4.6/5</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+</main>
+
+<footer>
+    <p>Line 10: Footer - Contact our full shoe store for more details.</p>
+    <p>Sole & Soul Headquarters, Portland, OR. &copy; 2026. All rights reserved.</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+/* Styling for External CSS tags */
+.external-p {
+    color: purple;
+    text-decoration: underline;
+}
+
+.external-hl {
+    background-color: transparent; /* External doesn't override other highlights easily */
+    color: darkred;
+    font-size: 1.1em;
+}
+
+.external-h3 {
+    border: 2px solid purple;
+    padding: 10px;
+    background-color: #f9f0ff;
+}

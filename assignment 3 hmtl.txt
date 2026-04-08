@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Site - CSS Types</title>
+    <link rel="stylesheet" href="assignment_3_external.css">
+    
+    <style>
+        .internal-p {
+            color: orange;
+            font-weight: bold;
+        }
+        .highlight-internal {
+            background-color: lightgreen;
+        }
+        .internal-h3 {
+            border: 1px dashed orange;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Demonstrating Different CSS Styling</h1>
+
+<h2>Paragraphs Styled (Assignment Instructions)</h2>
+<p style="color: blue; font-style: italic;">Paragraph 1: Styled using Inline CSS (Blue & Italics)</p>
+
+<p class="internal-p">Paragraph 2: Styled using Internal CSS (Orange & Bold)</p>
+
+<p class="external-p">Paragraph 3: Styled using External CSS (Purple & Underline)</p>
+
+<hr>
+
+<h2>Highlight Tags Styled</h2>
+<mark style="background-color: yellow;">Highlight 1: Styled using Inline CSS (Yellow Highlight)</mark><br><br>
+
+<mark class="highlight-internal">Highlight 2: Styled using Internal CSS (Light Green Highlight)</mark><br><br>
+
+<mark class="external-hl">Highlight 3: Styled via class from External CSS (No background highlight, different text style)</mark>
+
+<hr>
+
+<h2>H3 Building Tags Styled</h2>
+<h3 style="border: 1px solid blue; color: blue;">Building 1: Styled using Inline CSS</h3>
+
+<h3 class="internal-h3">Building 2: Styled using Internal CSS</h3>
+
+<h3 class="external-h3">Building 3: Styled using External CSS</h3>
+
+</body>
+</html>
