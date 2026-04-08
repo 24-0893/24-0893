@@ -1,5 +1,190 @@
-<h1> this is my first HTML5 code</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Car Website - 24-0893</title>
 
-<p> Welcome to my first website, lets have some fun<b>
-we are in lab 304 DAc buildind Nairobi Campus <br>
-You are free to join us!!</p>
+    <!-- Internal CSS -->
+    <style>
+        body {
+            background-color: #1e1e2f;
+            color: white;
+            font-family: Arial;
+        }
+
+        nav {
+            background: black;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            border: 1px solid white;
+            padding: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: black;
+        }
+    </style>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- MENU BAR -->
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Cars</a>
+    <a href="#">Gallery</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<!-- SEARCH BOX -->
+<center>
+    <input type="text" placeholder="Search cars..." style="padding:10px; width:50%;">
+</center>
+
+<h1 style="text-align:center; color:orange;">Car Showcase (Adm: 24-0893)</h1>
+
+<!-- PARAGRAPHS -->
+<p><b>This is bold text</b></p>
+<p><i>This is italic text</i></p>
+<p><u>This is underlined text</u></p>
+<p>H<sub>2</sub>O (Subscript)</p>
+<p>X<sup>2</sup> (Superscript)</p>
+<p><mark>Highlighted text</mark></p>
+<p><del>Strikethrough text</del></p>
+
+<blockquote>This is a quotation</blockquote>
+<blockquote style="margin-left:50px;">Indented quotation</blockquote>
+
+<hr>
+<hr>
+<hr>
+
+<!-- LISTS -->
+<h2>Car Types</h2>
+
+<ul>
+    <li>Sedan</li>
+    <li>SUV</li>
+    <li>Truck</li>
+</ul>
+
+<ol>
+    <li>Toyota</li>
+    <li>BMW</li>
+    <li>Audi</li>
+</ol>
+
+<ul>
+    <li>Cars
+        <ul>
+            <li>Electric</li>
+            <li>Hybrid</li>
+        </ul>
+    </li>
+</ul>
+
+<!-- IMAGE CONTAINERS -->
+<div class="container">
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" width="100%">
+        <p>Car 1</p>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" width="100%">
+        <p>Car 2</p>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" width="100%">
+        <p>Car 3</p>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" width="100%">
+        <p>Car 4</p>
+    </div>
+
+    <div class="card">
+        <img src="https://via.placeholder.com/200" width="100%">
+        <p>Car 5</p>
+    </div>
+
+</div>
+
+<!-- TABLE -->
+<h2>Car Price Table</h2>
+<table border="1" width="100%">
+    <tr>
+        <th>Car</th>
+        <th>Model</th>
+        <th>Price</th>
+    </tr>
+    <tr>
+        <td>Toyota</td>
+        <td>Corolla</td>
+        <td>$20,000</td>
+    </tr>
+    <tr>
+        <td>BMW</td>
+        <td>X5</td>
+        <td>$50,000</td>
+    </tr>
+</table>
+
+<br>
+
+<!-- BIG TABLE (10 columns, 5 rows) -->
+<table border="1" width="100%">
+    <tr>
+        <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
+        <th>6</th><th>7</th><th>8</th><th>9</th><th>10</th>
+    </tr>
+
+    <tr><td colspan="10">Row 1</td></tr>
+    <tr><td colspan="10">Row 2</td></tr>
+    <tr><td colspan="10">Row 3</td></tr>
+    <tr><td colspan="10">Row 4</td></tr>
+    <tr><td colspan="10">Row 5</td></tr>
+</table>
+
+<!-- VIDEOS -->
+<h2>Car Videos</h2>
+<video width="300" controls>
+    <source src="" type="video/mp4">
+</video>
+
+<video width="300" controls></video>
+<video width="300" controls></video>
+<video width="300" controls></video>
+<video width="300" controls></video>
+
+<!-- FOOTER -->
+<footer>
+    <p>© 2026 Car Website | Admission No: 24-0893</p>
+</footer>
+
+</body>
+</html>
