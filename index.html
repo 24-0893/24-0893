@@ -2,189 +2,146 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Car Website - 24-0893</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SoleStyle | Premium Footwear</title>
+    <link rel="stylesheet" href="style.css">
 
-    <!-- Internal CSS -->
     <style>
-        body {
-            background-color: #1e1e2f;
-            color: white;
-            font-family: Arial;
-        }
-
+        /* Internal CSS - Assignment 3 & 4 */
         nav {
-            background: black;
-            padding: 10px;
-            display: flex;
-            justify-content: space-around;
+            background: #333;
+            padding: 1rem;
         }
-
-        nav a {
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
             color: white;
             text-decoration: none;
+            font-weight: bold;
         }
-
-        .container {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            padding: 20px;
+        .para-int {
+            color: orange;
+            font-weight: bold;
         }
-
-        .card {
-            border: 1px solid white;
-            padding: 10px;
+        .h1-int {
+            color: blue;
+            font-style: italic;
         }
-
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: black;
+        .h3-int {
+            color: darkred;
+            text-decoration: line-through;
+        }
+        .highlight {
+            background-color: yellow;
+        }
+        .stroke-text {
+            -webkit-text-stroke: 1px black;
+            color: transparent;
         }
     </style>
-
-    <!-- External CSS -->
-    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- MENU BAR -->
-<nav>
-    <a href="#">Home</a>
-    <a href="#">Cars</a>
-    <a href="#">Gallery</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-</nav>
-
-<!-- SEARCH BOX -->
-<center>
-    <input type="text" placeholder="Search cars..." style="padding:10px; width:50%;">
-</center>
-
-<h1 style="text-align:center; color:orange;">Car Showcase (Adm: 24-0893)</h1>
-
-<!-- PARAGRAPHS -->
-<p><b>This is bold text</b></p>
-<p><i>This is italic text</i></p>
-<p><u>This is underlined text</u></p>
-<p>H<sub>2</sub>O (Subscript)</p>
-<p>X<sup>2</sup> (Superscript)</p>
-<p><mark>Highlighted text</mark></p>
-<p><del>Strikethrough text</del></p>
-
-<blockquote>This is a quotation</blockquote>
-<blockquote style="margin-left:50px;">Indented quotation</blockquote>
-
-<hr>
-<hr>
-<hr>
-
-<!-- LISTS -->
-<h2>Car Types</h2>
-
-<ul>
-    <li>Sedan</li>
-    <li>SUV</li>
-    <li>Truck</li>
-</ul>
-
-<ol>
-    <li>Toyota</li>
-    <li>BMW</li>
-    <li>Audi</li>
-</ol>
-
-<ul>
-    <li>Cars
+    <nav>
         <ul>
-            <li>Electric</li>
-            <li>Hybrid</li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
-    </li>
-</ul>
+    </nav>
 
-<!-- IMAGE CONTAINERS -->
-<div class="container">
+    <div class="container">
+        <h1 class="h1-int">Best Perfumes & Shoes 2026</h1>
+        
+        <div id="formatting-section">
+            <p style="font-weight: bold;">Line 1: Bold Styling</p>
+            <p style="font-style: italic;">Line 2: Italic Styling</p>
+            <p style="text-decoration: underline;">Line 3: Underlined Styling</p>
+            <p>Line 4: Superscript H<sup>2</sup>O and Date 8<sup>th</sup></p>
+            <p>Line 5: Subscript CO<sub>2</sub></p>
+            <p class="stroke-text">Line 6: Stroke Styling</p>
+            <p class="highlight">Line 7: Highlighted Content</p>
+            <p><q>Line 8: This is a short quotation</q></p>
+            <blockquote style="margin-left: 40px;">Line 9: Indented blockquote for professional layout.</blockquote>
+        </div>
 
-    <div class="card">
-        <img src="https://via.placeholder.com/200" width="100%">
-        <p>Car 1</p>
+        <hr> <p style="color: blue; font-style: italic;">Paragraph 1: Styled with Inline CSS</p>
+        <p class="para-int">Paragraph 2: Styled with Internal CSS</p>
+        <p class="para-ext">Paragraph 3: Styled with External CSS</p>
+
+        <h3 style="color: navy;">Building 1: Inline Styling</h3>
+        <h3 class="h3-int">Building 2: Internal Styling</h3>
+        <h3 class="h3-ext">Building 3: External Styling</h3>
+
+        <hr>
+
+        <div class="row">
+            <div class="column">
+                <h2>Latest Collections</h2>
+                <ul style="text-align: left;">
+                    <li>Running Shoes
+                        <ul>
+                            <li>Road Runners</li>
+                            <li>Trail Blazers</li>
+                            <li>Marathon Elite</li>
+                            <li>Sprint Spikes</li>
+                            <li>Comfort Walkers</li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="column">
+                <h2>Store Statistics</h2>
+                <table style="font-size: 0.8rem;">
+                    <tr>
+                        <th>ID</th><th>Model</th><th>Size</th><th>Color</th><th>Stock</th>
+                        <th>Price</th><th>Vendor</th><th>Rating</th><th>Brand</th><th>Year</th>
+                    </tr>
+                    <tr>
+                        <td>01</td><td>AirMax</td><td>42</td><td>Red</td><td>12</td>
+                        <td>$120</td><td>Nike</td><td>4.5</td><td>Sport</td><td>2026</td>
+                    </tr>
+                    <tr>
+                        <td>02</td><td>Boost</td><td>40</td><td>Blue</td><td>8</td>
+                        <td>$140</td><td>Adidas</td><td>4.8</td><td>Run</td><td>2026</td>
+                    </tr>
+                    </table>
+            </div>
+        </div>
+
+        <h2>Product Showcase (5 Images & 5 Videos)</h2>
+        <div class="row">
+            <div class="column media-box">
+                <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400" alt="Shoe 1">
+                <iframe width="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
+            </div>
+            <div class="column media-box">
+                <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400" alt="Shoe 2">
+                <iframe width="100%" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"></iframe>
+            </div>
+            </div>
+
+        <pre>
+            Line 13: 3 lines of
+            Preformatted text
+            to preserve spaces.
+        </pre>
     </div>
 
-    <div class="card">
-        <img src="https://via.placeholder.com/200" width="100%">
-        <p>Car 2</p>
-    </div>
-
-    <div class="card">
-        <img src="https://via.placeholder.com/200" width="100%">
-        <p>Car 3</p>
-    </div>
-
-    <div class="card">
-        <img src="https://via.placeholder.com/200" width="100%">
-        <p>Car 4</p>
-    </div>
-
-    <div class="card">
-        <img src="https://via.placeholder.com/200" width="100%">
-        <p>Car 5</p>
-    </div>
-
-</div>
-
-<!-- TABLE -->
-<h2>Car Price Table</h2>
-<table border="1" width="100%">
-    <tr>
-        <th>Car</th>
-        <th>Model</th>
-        <th>Price</th>
-    </tr>
-    <tr>
-        <td>Toyota</td>
-        <td>Corolla</td>
-        <td>$20,000</td>
-    </tr>
-    <tr>
-        <td>BMW</td>
-        <td>X5</td>
-        <td>$50,000</td>
-    </tr>
-</table>
-
-<br>
-
-<!-- BIG TABLE (10 columns, 5 rows) -->
-<table border="1" width="100%">
-    <tr>
-        <th>1</th><th>2</th><th>3</th><th>4</th><th>5</th>
-        <th>6</th><th>7</th><th>8</th><th>9</th><th>10</th>
-    </tr>
-
-    <tr><td colspan="10">Row 1</td></tr>
-    <tr><td colspan="10">Row 2</td></tr>
-    <tr><td colspan="10">Row 3</td></tr>
-    <tr><td colspan="10">Row 4</td></tr>
-    <tr><td colspan="10">Row 5</td></tr>
-</table>
-
-<!-- VIDEOS -->
-<h2>Car Videos</h2>
-<video width="300" controls>
-    <source src="" type="video/mp4">
-</video>
-
-<video width="300" controls></video>
-<video width="300" controls></video>
-<video width="300" controls></video>
-<video width="300" controls></video>
-
-<!-- FOOTER -->
-<footer>
-    <p>© 2026 Car Website | Admission No: 24-0893</p>
-</footer>
+    <footer>
+        <p>&copy; 2026 SoleStyle Footwear. All rights reserved.</p>
+        <p>Assignment 5 - Web Development Final Project</p>
+    </footer>
 
 </body>
 </html>
